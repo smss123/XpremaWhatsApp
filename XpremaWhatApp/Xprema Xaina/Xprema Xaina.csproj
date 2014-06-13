@@ -50,6 +50,42 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Groups\frmGroupsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Groups\frmGroupsAdd.Designer.cs">
+      <DependentUpon>frmGroupsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\frmGroupsDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Groups\frmGroupsDelete.Designer.cs">
+      <DependentUpon>frmGroupsDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\frmGroupsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Groups\frmGroupsEdit.Designer.cs">
+      <DependentUpon>frmGroupsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberAdd.Designer.cs">
+      <DependentUpon>frmPhoneNumberAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberDelete.Designer.cs">
+      <DependentUpon>frmPhoneNumberDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNumber\frmPhoneNumberEdit.Designer.cs">
+      <DependentUpon>frmPhoneNumberEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderAdd.cs">
@@ -57,6 +93,18 @@
     </Compile>
     <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderAdd.Designer.cs">
       <DependentUpon>frmWhatsAppIDSenderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderDelete.Designer.cs">
+      <DependentUpon>frmWhatsAppIDSenderDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderEdit.Designer.cs">
+      <DependentUpon>frmWhatsAppIDSenderEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderRegister.cs">
       <SubType>Form</SubType>
@@ -66,6 +114,12 @@
     </Compile>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Groups\frmGroupsAdd.resx">
+      <DependentUpon>frmGroupsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Groups\frmGroupsEdit.resx">
+      <DependentUpon>frmGroupsEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +132,12 @@
     </Compile>
     <EmbeddedResource Include="WhatsAppIDSender\frmWhatsAppIDSenderAdd.resx">
       <DependentUpon>frmWhatsAppIDSenderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsAppIDSender\frmWhatsAppIDSenderDelete.resx">
+      <DependentUpon>frmWhatsAppIDSenderDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsAppIDSender\frmWhatsAppIDSenderEdit.resx">
+      <DependentUpon>frmWhatsAppIDSenderEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WhatsAppIDSender\frmWhatsAppIDSenderRegister.resx">
       <DependentUpon>frmWhatsAppIDSenderRegister.cs</DependentUpon>
@@ -95,6 +155,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
