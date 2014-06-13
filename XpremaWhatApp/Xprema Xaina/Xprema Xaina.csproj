@@ -118,6 +118,9 @@
     <Compile Include="WhatsAppIDSender\frmWhatsAppIDSenderRegister.Designer.cs">
       <DependentUpon>frmWhatsAppIDSenderRegister.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Filter\frmFilter.resx">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>

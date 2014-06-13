@@ -31,10 +31,12 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblReadyStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.activateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whatAppIDSenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addIDSenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerIDSenderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,6 +51,9 @@
             this.addPhoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editPhoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deletePhoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.loadFromServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sendToServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filterManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sendPanalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sendPanalToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,11 +64,6 @@
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turnOffOptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.loadFromServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sendToServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.activateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -74,7 +74,7 @@
             this.lblReadyStatus,
             this.toolStripProgressBar1,
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 239);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 350);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(710, 22);
             this.statusStrip1.TabIndex = 0;
@@ -90,6 +90,12 @@
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(76, 17);
+            this.toolStripStatusLabel1.Text = "Balance Here";
             // 
             // menuStrip1
             // 
@@ -128,6 +134,12 @@
             this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
             this.historyToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.historyToolStripMenuItem.Text = "History";
+            // 
+            // activateToolStripMenuItem
+            // 
+            this.activateToolStripMenuItem.Name = "activateToolStripMenuItem";
+            this.activateToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.activateToolStripMenuItem.Text = "Activate";
             // 
             // whatAppIDSenderToolStripMenuItem
             // 
@@ -233,6 +245,23 @@
             this.deletePhoneToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.deletePhoneToolStripMenuItem.Text = "Delete Phone";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(161, 6);
+            // 
+            // loadFromServerToolStripMenuItem
+            // 
+            this.loadFromServerToolStripMenuItem.Name = "loadFromServerToolStripMenuItem";
+            this.loadFromServerToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.loadFromServerToolStripMenuItem.Text = "Load from Server";
+            // 
+            // sendToServerToolStripMenuItem
+            // 
+            this.sendToServerToolStripMenuItem.Name = "sendToServerToolStripMenuItem";
+            this.sendToServerToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.sendToServerToolStripMenuItem.Text = "Send to Server";
+            // 
             // filterManagerToolStripMenuItem
             // 
             this.filterManagerToolStripMenuItem.Name = "filterManagerToolStripMenuItem";
@@ -301,40 +330,11 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(161, 6);
-            // 
-            // loadFromServerToolStripMenuItem
-            // 
-            this.loadFromServerToolStripMenuItem.Name = "loadFromServerToolStripMenuItem";
-            this.loadFromServerToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.loadFromServerToolStripMenuItem.Text = "Load from Server";
-            // 
-            // sendToServerToolStripMenuItem
-            // 
-            this.sendToServerToolStripMenuItem.Name = "sendToServerToolStripMenuItem";
-            this.sendToServerToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.sendToServerToolStripMenuItem.Text = "Send to Server";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(76, 17);
-            this.toolStripStatusLabel1.Text = "Balance Here";
-            // 
-            // activateToolStripMenuItem
-            // 
-            this.activateToolStripMenuItem.Name = "activateToolStripMenuItem";
-            this.activateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.activateToolStripMenuItem.Text = "Activate";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 261);
+            this.ClientSize = new System.Drawing.Size(710, 372);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
