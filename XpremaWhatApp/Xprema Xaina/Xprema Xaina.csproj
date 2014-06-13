@@ -127,6 +127,9 @@
     <EmbeddedResource Include="Groups\frmGroupsAdd.resx">
       <DependentUpon>frmGroupsAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Groups\frmGroupsDelete.resx">
+      <DependentUpon>frmGroupsDelete.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Groups\frmGroupsEdit.resx">
       <DependentUpon>frmGroupsEdit.cs</DependentUpon>
     </EmbeddedResource>
