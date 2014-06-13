@@ -133,6 +133,9 @@
     <EmbeddedResource Include="Groups\frmGroupsEdit.resx">
       <DependentUpon>frmGroupsEdit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNumber\frmPhoneNumberAdd.resx">
+      <DependentUpon>frmPhoneNumberAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -16,5 +16,10 @@ namespace Xprema_Xaina.PhoneNumber
         {
             InitializeComponent();
         }
+
+        private void frmPhoneNumberAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
