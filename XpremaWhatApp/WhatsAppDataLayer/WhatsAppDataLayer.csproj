@@ -41,7 +41,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tables\Groups.cs" />
+    <Compile Include="Tables\History.cs" />
     <Compile Include="Tables\SendQuee.cs" />
+    <Compile Include="Tables\User.cs" />
     <Compile Include="Tables\WhatAppPhoneNumber.cs" />
     <Compile Include="Tables\WhatsAppIDSender.cs" />
   </ItemGroup>
