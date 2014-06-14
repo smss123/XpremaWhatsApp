@@ -64,6 +64,9 @@
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turnOffOptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.turnOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -157,24 +160,28 @@
             this.addIDSenderToolStripMenuItem.Name = "addIDSenderToolStripMenuItem";
             this.addIDSenderToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.addIDSenderToolStripMenuItem.Text = "Add ID Sender";
+            this.addIDSenderToolStripMenuItem.Click += new System.EventHandler(this.addIDSenderToolStripMenuItem_Click);
             // 
             // registerIDSenderToolStripMenuItem
             // 
             this.registerIDSenderToolStripMenuItem.Name = "registerIDSenderToolStripMenuItem";
             this.registerIDSenderToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.registerIDSenderToolStripMenuItem.Text = "Register ID Sender";
+            this.registerIDSenderToolStripMenuItem.Click += new System.EventHandler(this.registerIDSenderToolStripMenuItem_Click);
             // 
             // deleteIDSenderToolStripMenuItem
             // 
             this.deleteIDSenderToolStripMenuItem.Name = "deleteIDSenderToolStripMenuItem";
             this.deleteIDSenderToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.deleteIDSenderToolStripMenuItem.Text = "Delete ID Sender";
+            this.deleteIDSenderToolStripMenuItem.Click += new System.EventHandler(this.deleteIDSenderToolStripMenuItem_Click);
             // 
             // editIDSenderToolStripMenuItem
             // 
             this.editIDSenderToolStripMenuItem.Name = "editIDSenderToolStripMenuItem";
             this.editIDSenderToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.editIDSenderToolStripMenuItem.Text = "Edit ID Sender";
+            this.editIDSenderToolStripMenuItem.Click += new System.EventHandler(this.editIDSenderToolStripMenuItem_Click);
             // 
             // phoneNumberToolStripMenuItem
             // 
@@ -199,20 +206,23 @@
             // addGroupToolStripMenuItem
             // 
             this.addGroupToolStripMenuItem.Name = "addGroupToolStripMenuItem";
-            this.addGroupToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.addGroupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.addGroupToolStripMenuItem.Text = "Add Group";
+            this.addGroupToolStripMenuItem.Click += new System.EventHandler(this.addGroupToolStripMenuItem_Click);
             // 
             // editGroupToolStripMenuItem
             // 
             this.editGroupToolStripMenuItem.Name = "editGroupToolStripMenuItem";
-            this.editGroupToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.editGroupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.editGroupToolStripMenuItem.Text = "Edit Group";
+            this.editGroupToolStripMenuItem.Click += new System.EventHandler(this.editGroupToolStripMenuItem_Click);
             // 
             // deleteGroupToolStripMenuItem
             // 
             this.deleteGroupToolStripMenuItem.Name = "deleteGroupToolStripMenuItem";
-            this.deleteGroupToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.deleteGroupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.deleteGroupToolStripMenuItem.Text = "Delete Group";
+            this.deleteGroupToolStripMenuItem.Click += new System.EventHandler(this.deleteGroupToolStripMenuItem_Click);
             // 
             // whatsAppPhonesToolStripMenuItem
             // 
@@ -232,18 +242,21 @@
             this.addPhoneToolStripMenuItem.Name = "addPhoneToolStripMenuItem";
             this.addPhoneToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.addPhoneToolStripMenuItem.Text = "Add Phone";
+            this.addPhoneToolStripMenuItem.Click += new System.EventHandler(this.addPhoneToolStripMenuItem_Click);
             // 
             // editPhoneToolStripMenuItem
             // 
             this.editPhoneToolStripMenuItem.Name = "editPhoneToolStripMenuItem";
             this.editPhoneToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.editPhoneToolStripMenuItem.Text = "Edit Phone";
+            this.editPhoneToolStripMenuItem.Click += new System.EventHandler(this.editPhoneToolStripMenuItem_Click);
             // 
             // deletePhoneToolStripMenuItem
             // 
             this.deletePhoneToolStripMenuItem.Name = "deletePhoneToolStripMenuItem";
             this.deletePhoneToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.deletePhoneToolStripMenuItem.Text = "Delete Phone";
+            this.deletePhoneToolStripMenuItem.Click += new System.EventHandler(this.deletePhoneToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -282,12 +295,14 @@
             this.sendPanalToolStripMenuItem1.Name = "sendPanalToolStripMenuItem1";
             this.sendPanalToolStripMenuItem1.Size = new System.Drawing.Size(164, 22);
             this.sendPanalToolStripMenuItem1.Text = "Send Panal";
+            this.sendPanalToolStripMenuItem1.Click += new System.EventHandler(this.sendPanalToolStripMenuItem1_Click);
             // 
             // reviewIDSenderToolStripMenuItem
             // 
             this.reviewIDSenderToolStripMenuItem.Name = "reviewIDSenderToolStripMenuItem";
             this.reviewIDSenderToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.reviewIDSenderToolStripMenuItem.Text = "Review ID Sender";
+            this.reviewIDSenderToolStripMenuItem.Click += new System.EventHandler(this.reviewIDSenderToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
@@ -318,6 +333,10 @@
             // 
             // turnOffOptionToolStripMenuItem
             // 
+            this.turnOffOptionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restartToolStripMenuItem,
+            this.turnOffToolStripMenuItem,
+            this.logOutToolStripMenuItem});
             this.turnOffOptionToolStripMenuItem.Name = "turnOffOptionToolStripMenuItem";
             this.turnOffOptionToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.turnOffOptionToolStripMenuItem.Text = "Turn Off Option";
@@ -329,6 +348,26 @@
             this.toolStrip1.Size = new System.Drawing.Size(710, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // restartToolStripMenuItem
+            // 
+            this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.restartToolStripMenuItem.Text = "Restart";
+            this.restartToolStripMenuItem.Click += new System.EventHandler(this.restartToolStripMenuItem_Click);
+            // 
+            // turnOffToolStripMenuItem
+            // 
+            this.turnOffToolStripMenuItem.Name = "turnOffToolStripMenuItem";
+            this.turnOffToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.turnOffToolStripMenuItem.Text = "Turn Off";
+            this.turnOffToolStripMenuItem.Click += new System.EventHandler(this.turnOffToolStripMenuItem_Click);
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.logOutToolStripMenuItem.Text = "Log out";
             // 
             // frmMain
             // 
@@ -390,5 +429,8 @@
         private System.Windows.Forms.ToolStripMenuItem sendToServerToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem activateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restartToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem turnOffToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
     }
 }
