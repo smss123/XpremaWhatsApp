@@ -16,5 +16,10 @@ namespace Xprema_Xaina.Groups
         {
             InitializeComponent();
         }
+
+        private void frmGroupsAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

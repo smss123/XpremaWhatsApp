@@ -12,6 +12,7 @@ using Xprema_Xaina.SendPanal;
 using Xprema_Xaina.PhoneNumber;
 using Xprema_Xaina.Groups;
 using Xprema_Xaina.Filter;
+using WhatsAppDataLayer;
 namespace Xprema_Xaina
 {
     public partial class frmMain : Form
@@ -106,7 +107,13 @@ namespace Xprema_Xaina
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            //dbContext db = new dbContext(); var q = from i in db.groups select i;
+            ////System.IO.StreamWriter sw = new System.IO.StreamWriter(Application.StartupPath+"\\con.txt",);
+            ////sw.Write(db.Database.Connection.ConnectionString);
 
+            //System.IO.File.WriteAllText("xp.txt", db.Database.Connection.ConnectionString);
+
+            
         }
     }
 }

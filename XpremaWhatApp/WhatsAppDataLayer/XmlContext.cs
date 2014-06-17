@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
  using WhatsAppDataLayer.Tables;
-using XpremaFramework;
-using XpremaFramework.XML;
 namespace WhatsAppDataLayer
 {
     public class XmlContext
@@ -18,10 +16,10 @@ namespace WhatsAppDataLayer
             this.IDSender = new List<WhatsAppIDSender>();
             try
             {
-                Xprema_XML xpre = new Xprema_XML();
-                var q = xpre.Load("context.xml", this) ;
-                //this.Group = q.Group;
-                //this.IDSender = q.IDSender;
+                //Xprema_XML xpre = new Xprema_XML();
+                //var q = xpre.Load("context.xml", this) ;
+                ////this.Group = q.Group;
+                ////this.IDSender = q.IDSender;
             }
             catch (Exception ex)
             {
@@ -43,8 +41,8 @@ namespace WhatsAppDataLayer
             this.IDSender.Add(new WhatsAppIDSender() { ID = 3, IDSenderPhone = "num3", IsActive = true, PassKey = "Pas3" });
           
           
-            Xprema_XML xpre = new Xprema_XML();
-            xpre.Save("context.xml", this);
+            //Xprema_XML xpre = new Xprema_XML();
+            //xpre.Save("context.xml", this);
            
         }
     }

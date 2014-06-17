@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema Xaina", "Xprema Xaina\Xprema Xaina.csproj", "{82FB8714-1A16-4840-B9DA-294E8106D8B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppDataLayer", "WhatsAppDataLayer\WhatsAppDataLayer.csproj", "{AB15285A-54BE-4EB6-8948-F6262FB1C52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppService", "WhatsAppService\WhatsAppService.csproj", "{021D2E64-62CC-44E4-96B3-594BC4869EE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AB15285A-54BE-4EB6-8948-F6262FB1C52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB15285A-54BE-4EB6-8948-F6262FB1C52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB15285A-54BE-4EB6-8948-F6262FB1C52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021D2E64-62CC-44E4-96B3-594BC4869EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021D2E64-62CC-44E4-96B3-594BC4869EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021D2E64-62CC-44E4-96B3-594BC4869EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021D2E64-62CC-44E4-96B3-594BC4869EE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

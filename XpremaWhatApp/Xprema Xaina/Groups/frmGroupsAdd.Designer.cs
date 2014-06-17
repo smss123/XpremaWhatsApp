@@ -115,6 +115,7 @@
             this.Name = "frmGroupsAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Groups Add";
+            this.Load += new System.EventHandler(this.frmGroupsAdd_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
