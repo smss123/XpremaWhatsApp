@@ -46,6 +46,7 @@
     <Compile Include="Tables\User.cs" />
     <Compile Include="Tables\WhatAppPhoneNumber.cs" />
     <Compile Include="Tables\WhatsAppIDSender.cs" />
+    <Compile Include="XmlContext.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

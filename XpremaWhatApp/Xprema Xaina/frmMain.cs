@@ -103,5 +103,10 @@ namespace Xprema_Xaina
                 Application.Exit();
             }
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
